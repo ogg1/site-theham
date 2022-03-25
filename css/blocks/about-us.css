@@ -1,0 +1,112 @@
+.about-us {
+    background-image: url(../../img/about-us/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.about-us-text {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.title-white {
+    color: #FFFFFF;
+    margin-bottom: 68px;
+}
+
+.icon {
+    margin-bottom: 36px;
+}
+
+.about-us-text p {
+    margin-bottom: 37px;
+    font-weight: 300;
+    color: #BBBBBB;
+    line-height: 188%;
+}
+
+.about-us-persone {
+    text-align: center;
+    position: relative;
+}
+
+.persone-name {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #18CFAB;
+    margin-bottom: 19px;
+}
+
+.persone-job {
+    font-weight: 300;
+    font-size: 13px;  
+    color: #BBBBBB;
+    margin-bottom: 42px;
+}
+
+.big-image-persone {
+    margin-bottom: 54px;
+}
+
+.select-persone {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-bottom: 80px;
+}
+
+.img-icon-svg:hover rect {
+    fill-opacity: 1;
+    fill: #18CFAB;
+}
+
+.img-icon-svg:hover path {
+    fill: #FFFFFF;
+}
+
+.img-icon-small {
+    transition: all 0.2s ease-in-out;
+}
+
+.img-icon-small:hover {
+    transform: translate(0,-10px); 
+}
+
+.about-us-persone::after {
+    position: absolute;
+    content: "";
+    right: 300px;
+    top: 110px;
+
+    width: 44px;
+    height: 31px;
+    background-image: url(../../img/about-us/icon.svg);
+}
+
+.about-us-text {
+    position: relative;
+}
+
+.about-us-text::after {
+    position: absolute;
+    left: 46.6%;
+    top: 49%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 76px;
+    height: 1px;
+    background-color: #18CFAB;
+}
+
+.about-us-text::before {
+    position: absolute;
+    right: 45.7%;
+    top: 50.5%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 75px;
+    height: 1px;
+    background-color: #18CFAB;
+}

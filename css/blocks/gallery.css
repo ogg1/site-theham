@@ -1,0 +1,100 @@
+.gallery {
+    padding-top: 115px;
+    background-color: rgba(0, 0, 0, 0.0001);
+    padding-bottom: 70px;
+}
+
+.gallery-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 115px;
+}
+
+/* ГАЛЕРЕЯ ИЗОБРАЖЕНИЙ  */
+
+.gallery-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    column-gap: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 54px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.box img {
+    width: 100%;
+    margin-bottom: 20px;
+    /* border-radius: 5px; */
+
+
+    /* увеличение изображения часть 1*/
+
+    -moz-transition: all 0.2s ease-out;
+}
+
+/* КОНЕЦ */
+
+.box img:hover {
+    box-shadow: 0px 10px 52px rgba(0, 0, 0, 0.2);
+
+    /* увеличение изображения часть 2 */
+    -moz-transform: scale(1.03);
+}
+
+
+.gallery-text {
+    position: relative;
+}
+
+.gallery-text::after {
+    position: absolute;
+    left: 39%;
+    top: 45%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 76px;
+    height: 1px;
+    background-color: #18CFAB;
+}
+
+.gallery-text::before {
+    position: absolute;
+    right: 41%;
+    top: 47%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 65px;
+    height: 1px;
+    background-color: #18CFAB;
+}
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+

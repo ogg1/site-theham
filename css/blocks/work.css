@@ -1,0 +1,144 @@
+.work {
+    padding-top: 100px;
+    background-color: #E9EDEF;
+    padding-bottom: 100px;
+}
+
+.work-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-text {
+    margin-bottom: 100px;
+}
+
+.select-work {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.select-work a {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    margin-left: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: solid 2px #DADADA;
+    color: #717171;
+ 
+}
+
+.select-work a:hover {
+    border: solid #18CFAB;
+    color: #18CFAB;
+}
+
+.work-images {
+    margin-bottom: 72px;
+    
+}
+
+.create-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 285px;
+    height: 206px;
+    border-top: solid 3px #18CFAB;
+}
+
+.design-images {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.design-images svg + svg {
+   padding-left: 5px;
+}
+
+.create-design-title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 14.1771px;
+    text-transform: uppercase;
+    color: #18CFAB;
+    padding-bottom: 10px;
+}
+
+.create-design-subtitle {
+    font-weight: 300;
+    font-size: 12.1518px;
+    color: #8A8A8A;
+}
+
+.work-stop-icon {
+    padding-top: 2px;
+}
+
+.design-images svg:hover path {
+    fill: #ffffff;
+}
+
+.design-images svg:hover rect {
+    fill: #18CFAB;
+}
+
+.design-images .work-stop-icon:hover rect {
+    fill: #ffffff;
+}
+
+.design-images .work-stop-icon:hover path {
+    fill: #18CFAB;
+}
+
+.group-img {
+    display: flex;
+}
+
+.work-text {
+    position: relative;
+}
+
+.work-text::after {
+    position: absolute;
+    left: 41%;
+    top: 150%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 76px;
+    height: 1px;
+    background-color: #18CFAB;
+}
+
+.work-text::before {
+    position: absolute;
+    right: 40.5%;
+    top: 160%;
+    transform: translateY(-50%);
+    display: block;
+    content: "";
+    width: 75px;
+    height: 1px;
+    background-color: #18CFAB;
+}
+
+/* уменьшение */
+
+.group-img img {
+    /* уменьшение изображения часть 1*/
+
+    transition: all 0.2s ease-out;
+}
+
+/* КОНЕЦ */
+
+.group-img img:hover {
+    
+    /* увеличение изображения часть 2 */
+    transform: scale(0.85);
+}

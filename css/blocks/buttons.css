@@ -1,0 +1,66 @@
+
+a.btn {
+    color: #ffffff;
+}
+
+.btn {
+    min-height: 63px;
+    width: 169px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    line-height: 1;
+    background-color: #18CFAB;
+    border-radius: 5px;
+    border-top: solid 4.75px #ffffff;
+
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+a.btn:hover {
+    background-color: #00CBF6;
+    transition: background-color 0.2s ease-in;
+}
+
+/*  */
+
+.green-load-btn {
+    color: #ffffff;
+    border-top: none;
+}
+
+.icon-plus {
+    padding-left: 25px;
+    position: relative;
+}
+
+.icon-plus::before {
+    
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 1px;
+
+    display: block;
+    content: "";
+    width: 18px;
+    height: 19px;
+    
+    background-image: url(../../img/gallery/icon-plus.svg);
+    background-size: initial;
+    background-repeat: no-repeat;
+}
+
+.green-load-btn:hover {
+    border-radius: 5px;
+    background-color: #00CBF6;
+    transition: background-color 0.2s ease-in;
+}
+
+/*  */

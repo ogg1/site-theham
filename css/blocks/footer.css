@@ -1,0 +1,21 @@
+.footer {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    background-color: #22353F;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.finish-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 186%;
+    color: #AEAEAE;
+}
+
+span {
+    color: #18CFAB;
+}

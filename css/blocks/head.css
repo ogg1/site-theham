@@ -1,0 +1,52 @@
+.home-screen {
+    background-image: url(../../img/head/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.head {
+    padding-top: 258px; 
+}
+
+.head-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-offer {
+   width: 795px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.head-subtitle {
+    font-weight: 700;
+    font-size: 35px;   
+    text-transform: uppercase;  
+    color: #ffffff;
+    padding-bottom: 22px;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 78px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 22px;
+}
+
+.head-desc {
+    font-weight: 400;
+    font-size: 34px;
+    color: #D4D4D4;
+    padding-bottom: 129px;
+}
+
+.head-buttons {
+    width: 363px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 207px;
+}

@@ -1,0 +1,30 @@
+.purchase {
+    background-image: url(../../img/purchase/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.purchase-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 127px;
+    padding-bottom: 100px;
+}
+
+.purchase-title {
+    padding-bottom: 13px;
+
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #18CFAB;
+}
+
+.purchase-row p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #D8D8D8;
+    padding-bottom: 62px;
+}

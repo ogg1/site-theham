@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: ; */
+    font-size: 16px;
+    /* line-height: ; */
+    /* color: #; */
+}
+
+/* скрыть для верстки адаптива */
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/* обычный контейнер */
+
+.container {
+    max-width: 1190px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* широкий контейнер */
+
+.container-wide {
+    max-width: 100%;
+}
+
+/* нет скрола для моб меню */
+
+.no-scroll {
+    overflow: hidden;
+}
